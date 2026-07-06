@@ -1,3 +1,5 @@
+package food;
+
 public class Pizza implements Food {
     @Override
     public String getName(){

@@ -1,3 +1,5 @@
+package food;
+
 public interface Food {
     String getName();
     double getPrice();

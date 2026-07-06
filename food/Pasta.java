@@ -1,3 +1,5 @@
+package food;
+
 public class Pasta implements Food{
 
     @Override
