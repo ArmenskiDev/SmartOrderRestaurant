@@ -15,10 +15,12 @@ public class Burger implements Food {
         this.bacon = bacon;
     }
 
+    @Override
     public String getName(){
         return size + "Burger";
     }
 
+    @Override
     public double getPrice(){
         return 8.99;
 
@@ -34,14 +36,17 @@ public class Burger implements Food {
         return price
     }
 
+    @Override
     public void prepare(){
         System.out.println("Preparing the " + size + " Burger");
     }
 
+    @Override
     public int getCalories(){
         return 800;
     }
 
+    @Override
     public void getDescription(){
         System.out.println("Get our tasty Burger only for $12.99");
     }
