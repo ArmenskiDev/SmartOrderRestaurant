@@ -4,7 +4,7 @@ Smart order is a java based restaurant order system which I have built in order 
 The system I created allows users to create food orders, customize burgers, calculate totals, process payments and to print recipts.
 
 Features:
-- Create food items using facotry pattern
+- Create food items using factory pattern
 - Build custom burgers using the builder pattern
 - Store multiple items in an order
 - Calculate order totals
